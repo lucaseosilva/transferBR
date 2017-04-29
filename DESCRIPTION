@@ -6,4 +6,6 @@ Author: Lucas E. O. Silva
 Maintainer: Lucas E. O. Silva <lucas.eosilva@usp.br>
 Description: This package collects federal to states transfers data from Portal Transparencia
 Encoding: UTF-8
+Depends: R (>= 3.2.0)
+License: GPL-3
 LazyData: true
