@@ -2,10 +2,10 @@
 title: "TranferBR"
 author: Lucas E. O. Silva
 output: 
-  html_document
+  github_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 require(knitr)
 ```
