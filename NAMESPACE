@@ -1,1 +1,7 @@
 export(coletarTransparenciaAno)
+import(dplyr)
+import(utils)
+import(XML)
+import(httr)
+import(tidyr)
+import(beepr)
