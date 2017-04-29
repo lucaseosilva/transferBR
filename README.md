@@ -11,6 +11,7 @@ require(knitr)
 ```
 # TranferBR
 #### Autor: Lucas E. O. Silva
+#### Email: lucas.eosilva@usp.br
 
 ### Objeto selecionado:
 
