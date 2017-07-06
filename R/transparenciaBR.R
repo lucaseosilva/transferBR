@@ -6,7 +6,6 @@
 #' @param uf Sigla dos estados.
 #' @import XML RCurl httr
 #' @export
-
 #' TransferenciaMunicipio()
 
 TransferenciaMunicipio <- function(ano, uf) {
@@ -316,8 +315,8 @@ TransferenciaEstado <- function (ano2){
 #' @import XML RCurl httr
 #' @export
 
-#' coletaConvenioGeral()
-coletaConvenioGeral <- function(){
+#' ColetaConvenioGeral()
+ColetaConvenioGeral <- function(){
   uf <- c("AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MT", "MS", "PE", "PI", "PB", "PR", "PA",
           "RS", "RR", "RO", "RN", "SP", "SE", "SC", "TO")
 
