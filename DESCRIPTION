@@ -1,9 +1,9 @@
 Package: transferBR
 Title: transferBR
 Version: 0.0.0.1
-Authors@R: person("Lucas", "Silva", email = "lukasemanoel@gmail.com",
+Author: person("Lucas", "Silva", email = "lukasemanoel@gmail.com",
                   role = c("aut", "cre"))
-Description: Extrai os dados de transferência de recursos presentes no Portal Transparência
+Description: Extrai os dados de transferÃªncia de recursos presentes no Portal TransparÃªncia
 Depends: R (>= 3.4.0)
 License: GPL (>= 2)
 Depends: XML,

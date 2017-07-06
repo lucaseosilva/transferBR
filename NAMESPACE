@@ -1,7 +1,6 @@
-export(TransferenciaMunicipio)
-export(TransferenciaEstado)
-export(coletaConvenioGeral)
 import(XML)
 import(RCurl)
 import(httr)
-
+export(TransferenciaMunicipio)
+export(TransferenciaEstado)
+export(coletaConvenioGeral)
