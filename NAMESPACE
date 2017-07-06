@@ -1,2 +1,7 @@
-export(coletarTransparenciaAno)
+export(TransferenciaMunicipio)
+export(TransferenciaEstado)
+export(coletaConvenioGeral)
+import(XML)
+import(RCurl)
+import(httr)
 

@@ -1,11 +1,18 @@
 Package: transferBR
-Type: Package
-Title: Extracts informations from Portal Transparencia
-Version: 0.1.0
-Author: Lucas E. O. Silva
-Maintainer: Lucas E. O. Silva <lucas.eosilva@usp.br>
-Description: This package collects federal to states transfers data from Portal Transparencia
+Title: transferBR
+Version: 0.0.0.1
+Authors@R: person("Lucas", "Silva", email = "lukasemanoel@gmail.com",
+                  role = c("aut", "cre"))
+Description: Extrai os dados de transferência de recursos presentes no Portal Transparência
+Depends: R (>= 3.4.0)
+License: GPL (>= 2)
+Depends: XML,
+	 RCurl, 
+	 httr
+Imports: XML,
+	 RCurl, 
+	 httr
 Encoding: UTF-8
-Depends: R (>= 3.2.0)
-License: GPL-3
-LazyData: true
+LazyLoad: yes 
+LazyData: yes
+RoxygenNote: 6.0.1
