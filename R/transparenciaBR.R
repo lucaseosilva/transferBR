@@ -215,7 +215,11 @@ TransferenciaMunicipio <- function(ano, uf) {
   agregado[,8] <- as.numeric(gsub(",", ".", agregado[,8]))
   agregado[,8] <- as.numeric(agregado[,8])
 
-  names(agregado) <- c("ANO", "UF", "COD_SIAFI", "MUNICIPIO", "FUNÇÃO","AÇÃO GOVERNAMENTAL","LINGUAGEM CIDADÃ","TOTAL ANO (R$)")
+  names(agregado) <- c("ANO", "UF", "COD_SIAFI", "MUNICIPIO", "FUNCAO","ACAO_GOVERNAMENTAL","LINGUAGEM_CIDADA","TOTAL_VALOR_REAIS")
+
+  agregado <- separate(agregado, ACAO_GOVERNAMENTAL, c('COD', 'DESC_ACAO_GOV'), sep=' - ', remove=TRUE)
+
+  names(agregado) <- c("ANO", "UF", "COD_SIAFI", "MUNICIPIO", "FUNÇÃO","CÓDIGO AÇÃO", "DESCRIÇÃO AÇÃO GOVERNAMENTAL","LINGUAGEM CIDADÃ","TOTAL ANO (R$)")
   return (agregado)
 }
 
