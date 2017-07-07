@@ -5,7 +5,7 @@ Author: Lucas E. O. Silva [aut, cre]
 Maintainer: Lucas E. O. Silva <lukasemanoel@gmail.com>
 Description: Extrai os dados de transferência de recursos presentes no Portal Transparência
 License: GPL (>= 2)
-Depends: R (>= 3.4.0)
+Depends: R (>= 3.2.0)
 Imports: XML, RCurl, httr
 Encoding: UTF-8
 LazyData: TRUE
