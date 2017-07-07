@@ -210,6 +210,11 @@ TransferenciaMunicipio <- function(ano, uf) {
     }
   }
   agregado <- agregado[,c(5:8,1:4)]
+
+  agregado[,8] <- gsub("\\.","", agregado[,8])
+  agregado[,8] <- as.numeric(gsub(",", ".", agregado[,8]))
+  agregado[,8] <- as.numeric(agregado[,8])
+
   names(agregado) <- c("ANO", "UF", "COD_SIAFI", "MUNICIPIO", "FUNÇÃO","AÇÃO GOVERNAMENTAL","LINGUAGEM CIDADÃ","TOTAL ANO (R$)")
   return (agregado)
 }
@@ -299,6 +304,21 @@ TransferenciaEstado <- function (ano2){
     }
   }
   agregado <- agregado[,c(5,1:4)]
+  agregado[,3] <- gsub("\\.","", agregado[,3])
+  agregado[,3] <- as.numeric(gsub(",", ".", agregado[,3]))
+  agregado[,3] <- as.numeric(agregado[,3])
+
+  agregado[,4] <- gsub("\\.","", agregado[,4])
+  agregado[,4] <- as.numeric(gsub(",", ".", agregado[,4]))
+  agregado[,4] <- as.numeric(agregado[,4])
+
+  agregado[,5] <- gsub("\\.","", agregado[,5])
+  agregado[,5] <- as.numeric(gsub(",", ".", agregado[,5]))
+  agregado[,5] <- as.numeric(agregado[,5])
+
+  agregado[,3] <- as.numeric(agregado[,3])
+  agregado[,4] <- as.numeric(agregado[,4])
+  agregado[,5] <- as.numeric(agregado[,5])
   names(agregado) <- c("ANO", "UF", "TRANSFERENCIA_ESTADO (R$)", "TRANSFERÊNCIA MUNICÍPIO (R$)", "VALOR TOTAL (R$)")
 
   return (agregado)
