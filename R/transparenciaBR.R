@@ -4,10 +4,8 @@
 #' presentes no Portal Transparência
 #' @param ano A partir de 2004.
 #' @param uf Sigla dos estados.
-#' @import XML RCurl httr
+#' @import XML RCurl httr utils
 #' @export
-#' TransferenciaMunicipio()
-
 TransferenciaMunicipio <- function(ano, uf) {
 
 
@@ -221,11 +219,8 @@ TransferenciaMunicipio <- function(ano, uf) {
 #' Essa função extrai todas as transferências constitucionais para todos os estados
 #' presentes no Portal Transparência
 #' @param ano A partir de 2004.
-#' @import XML RCurl httr
+#' @import XML RCurl httr utils
 #' @export
-
-#' TransferenciaEstado()
-
 TransferenciaEstado <- function (ano2){
   #criado o frame vazio
   #agregado <- data.frame()
@@ -312,10 +307,8 @@ TransferenciaEstado <- function (ano2){
 #' Transferência de recursos para os municípios
 #'
 #' Essa função extrai os valores dos convênios transferidos aos estados
-#' @import XML RCurl httr
+#' @import XML RCurl httr utils
 #' @export
-
-#' ColetaConvenioGeral()
 ColetaConvenioGeral <- function(){
   uf <- c("AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MG", "MT", "MS", "PE", "PI", "PB", "PR", "PA",
           "RS", "RR", "RO", "RN", "SP", "SE", "SC", "TO")

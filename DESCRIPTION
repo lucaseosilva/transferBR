@@ -1,18 +1,12 @@
 Package: transferBR
 Title: transferBR
 Version: 0.0.0.1
-Authors@R: person("Lucas", "Silva", email = "lukasemanoel@gmail.com",
-                  role = c("aut", "cre"))
+Author: Lucas E. O. Silva [aut, cre]
+Maintainer: Lucas E. O. Silva <lukasemanoel@gmail.com>
 Description: Extrai os dados de transferência de recursos presentes no Portal Transparência
-Depends: R (>= 3.4.0)
 License: GPL (>= 2)
-Depends: XML,
-	 RCurl, 
-	 httr
-Imports: XML,
-	 RCurl, 
-	 httr
+Depends: R (>= 3.4.0)
+Imports: XML, RCurl, httr
 Encoding: UTF-8
-LazyLoad: yes 
-LazyData: yes
+LazyData: TRUE
 RoxygenNote: 6.0.1
