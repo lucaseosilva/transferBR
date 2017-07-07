@@ -10,7 +10,7 @@ TransferenciaMunicipio <- function(ano, uf) {
 
 
   #carregando o arquivo com o código siafi de todos os municípios
-  siafi <- read.csv("https://raw.githubusercontent.com/lucaseosilva/transferBR/master/files/siafi.csv", header = T, sep=";")
+  siafi <- read.csv("https://raw.githubusercontent.com/lucaseosilva/transferBR/master/data/siafi.csv", header = T, sep=";")
 
   #criado o frame vazio
   agregado <- data.frame()
