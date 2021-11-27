@@ -1,6 +1,6 @@
 ---
 title: "TranferBR"
-author: Lucas E. O. Silva
+author: Lucas E. O. Silva e Ananda
 output: 
   github_document
 ---
