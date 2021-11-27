@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 require(knitr)
 ```
 # TranferBR
-#### Autor: Lucas E. O. Silva
+#### Autor: Lucas E. O. Silva e Ananda
 #### Email: lucas.eosilva@usp.br
 
 ### Objeto selecionado:
